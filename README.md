@@ -1,7 +1,26 @@
 # Airplanes Crashes Study
  
- Data Scraped from Wikipedia
+ Data froom:
  
- https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft
+ http://www.planecrashinfo.com/index.html
  
- Accidents and Incidents from 1919 to 2022
+ Accidents and Incidents from 1920 to 2023
+
+
+
+
+The aviation accident database includes: 
+
+All civil and commercial aviation accidents of scheduled and non-scheduled passenger airliners worldwide, which resulted in a fatality (including all U.S. Part 121 and Part 135 fatal accidents)
+
+All cargo, positioning, ferry and test flight fatal accidents.
+
+All military transport accidents with 10 or more fatalities.
+
+All commercial and military helicopter accidents with greater than 10 fatalities.
+
+All civil and military airship accidents involving fatalities.
+
+Aviation accidents involving the death of famous people.
+
+Aviation accidents or incidents of noteworthy interest.
