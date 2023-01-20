@@ -66,7 +66,7 @@ percent_acc_formatted = "{:.2f}%".format(round(percente_acc, 2))
 total_aboard_fatalities = int(float(df_selection['Aboard_Fatalities'].sum()))
 
 #---Total ground fatalities---
-total_ground_fatalities = int((floatdf_selection['Ground_Fatalities'].sum()))
+total_ground_fatalities = int(float(df_selection['Ground_Fatalities'].sum()))
 
 #---Total fatalities---
 total_fatalities = int(float(df_selection['Total_Fatalites'].sum()))
