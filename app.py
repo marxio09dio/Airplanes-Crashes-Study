@@ -26,8 +26,8 @@ st.title(":red[All Accidents] from 1908 to 2023")
 st.markdown('##')
 
 total_accidentes = len(df)
-total_aboard_fatalities = int(df['Aboard_Fatalities'].sum())
-total_ground_fatalities = int(df['Ground_Fatalities'].sum())
+total_aboard_fatalities = int(float(df['Aboard_Fatalities'].sum()))
+total_ground_fatalities = int(float(df['Ground_Fatalities'].sum()))
 total_fatalities = int(df['Total_Fatalites'].sum())
 
 left_columnn, middle_column, md_column, right_column = st.columns(4)
@@ -63,13 +63,13 @@ percente_acc = len(df_selection) / len(df) * 100
 percent_acc_formatted = "{:.2f}%".format(round(percente_acc, 2))
 
 #---Total aboard fatalities---
-total_aboard_fatalities = int(df_selection['Aboard_Fatalities'].sum())
+total_aboard_fatalities = int(float(df_selection['Aboard_Fatalities'].sum()))
 
 #---Total ground fatalities---
-total_ground_fatalities = int(df_selection['Ground_Fatalities'].sum())
+total_ground_fatalities = int((floatdf_selection['Ground_Fatalities'].sum()))
 
 #---Total fatalities---
-total_fatalities = int(df_selection['Total_Fatalites'].sum())
+total_fatalities = int(float(df_selection['Total_Fatalites'].sum()))
 
 
 left_columnn, middle_column, md_column, right_column = st.columns(4)
