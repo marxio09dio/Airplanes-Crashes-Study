@@ -1,6 +1,6 @@
 # Airplanes Crashes Study
  
- Data froom:
+ Data from:
  
  http://www.planecrashinfo.com/index.html
  
