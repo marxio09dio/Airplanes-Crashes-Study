@@ -16,3 +16,5 @@ city = st.sidebar.multiselect("Select the Year:", options=df["year"].unique(), d
 
 
 df_selection = df.query("year == @year")
+
+st.dataframe(df_selection)
