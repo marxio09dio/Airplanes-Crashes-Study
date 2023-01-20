@@ -97,7 +97,9 @@ st.markdown('---')
 
  ## ------Data viz------
 
-fatalities_by_year = (df_selection.groupby(by=['year']).sum()[['Total']].sort_values(by='year'))
+fatalities_by_year = df.groupby(by=['year']).sum()
 
-chart_fatalities_by_year = px.line(fatalities_by_year, x="year", y=fatalities_by_year.index)
 
+chart_fatalities_by_year = px.line(fatalities_by_year, x=fatalities_by_year.index, y=fatalities_by_year['Total_Fatalites'], title="<b>Total Deaths by Year</b>")
+
+st.plotly_chart(chart_fatalities_by_year)
