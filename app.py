@@ -14,16 +14,5 @@ st.dataframe(df)
 st.sidebar.header("Please Filter Here:")
 city = st.sidebar.multiselect("Select the Year:", options=df["year"].unique(), default=df["year"].unique())
 
-#customer_type = st.sidebar.multiselect(
-#    "Select the Location:",
-#    options=df["Location"].unique(),
-#    default=df["Location"].unique(),
-#)
 
-#gender = st.sidebar.multiselect(
-#    "Select the Operator:",
-#    options=df["Operator"].unique(),
-#    default=df["Operator"].unique()
-#)
-
-df_selection = df.query("year == @year") #& Location ==@Location & Operator == @Operator")
+df_selection = df.query("year == @year")
