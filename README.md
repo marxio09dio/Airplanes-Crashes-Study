@@ -1,10 +1,10 @@
 # Airplanes Crashes Study
  
- Data froom:
+ Data from:
  
  http://www.planecrashinfo.com/index.html
  
- Accidents and Incidents from 1920 to 2023
+ Accidents and Incidents from 1908 to 2023
 
 
 
