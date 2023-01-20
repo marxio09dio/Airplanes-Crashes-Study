@@ -7,7 +7,7 @@ st.set_page_config(page_title='Airplanes Crash Data', layout="wide")
 
 df = pd.read_excel(io='Data/plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',usecols='A:Q', nrows=5064)
 
-st.dataframe(df)
+#st.dataframe(df)
 
 # side bar
 
@@ -18,7 +18,7 @@ year = st.sidebar.multiselect("Select the Year:", options=df["year"].unique(), d
 
 df_selection = df.query("year == @year")
 
-st.dataframe(df_selection)
+#st.dataframe(df_selection)
 
 
 #------Page total KPIs------
@@ -54,7 +54,7 @@ st.markdown('---')
 
 
 # ------total selected years------
-st.title("Total for :red[Select Year(s)]")
+st.title("Total for :red[Selected Year(s)]")
 st.markdown('##')
 
 #---total accidents---
