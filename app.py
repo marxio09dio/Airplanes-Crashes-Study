@@ -13,10 +13,13 @@ df = pd.read_excel(io='plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',useco
 
 # ------Filters------
 st.sidebar.header("Please Filter Here:")
-year = st.sidebar.multiselect("Select the Year:", options=df["year"].unique(), default=df["year"].unique())
+years = df['year'].unique()
+#year = st.sidebar.multiselect("Select the Year:", options=df["year"].unique(), default=df["year"].unique())
+year = st.sidebar.select_slider("Select the Year Range", options=years, value=[1908, 2023])
 
 
-df_selection = df.query("year == @year")
+#df_selection = df.query("year == @year")
+df_selection = df.query("year >= @year[0] and year <= @year[1]")
 
 #st.dataframe(df_selection)
 
@@ -97,9 +100,27 @@ st.markdown('---')
 
  ## ------Data viz------
 
+left_columnn, middle_column, md_column, right_column = st.columns(4)
+
 fatalities_by_year = df.groupby(by=['year']).sum()
 
 
-chart_fatalities_by_year = px.line(fatalities_by_year, x=fatalities_by_year.index, y=fatalities_by_year['Total_Fatalites'], title="<b>Total Deaths by Year</b>")
+chart_fatalities_by_year = px.line(fatalities_by_year, x=fatalities_by_year.index, y=fatalities_by_year['Total_Fatalites'], width=800, height=700, title="<b>Total Deaths by Year</b>")
 
-st.plotly_chart(chart_fatalities_by_year)
+with left_columnn:
+    st.plotly_chart(chart_fatalities_by_year)
+
+
+# group by the "Operator" column and count the occurrences of each unique value
+operator_counts = df_selection.groupby("Operator").size().reset_index(name='Accidents')
+
+# sort the operator_counts dataframe by 'counts' column in descending order
+operator_counts = operator_counts.sort_values(by='Accidents', ascending=False)
+
+# take only the top 10 values
+top_10 = operator_counts.head(10)
+
+chart_operators = px.bar(top_10, x='Operator', y='Accidents', width=800, height=700, title="<b>Top 10 Airlines with Accidents</b>")
+
+with middle_column:
+    st.plotly_chart(chart_operators)
