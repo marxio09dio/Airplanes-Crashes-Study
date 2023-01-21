@@ -108,7 +108,7 @@ fatalities_by_year = df.groupby(by=['year']).sum()
 chart_fatalities_by_year = px.line(fatalities_by_year, x=fatalities_by_year.index, y=fatalities_by_year['Total_Fatalites'], width=800, height=700, title="<b>Total Deaths by Year</b>")
 
 with left_columnn:
-    st.plotly_chart(chart_fatalities_by_year)
+    st.plotly_chart(chart_fatalities_by_year, width=800, height=700)
 
 
 # group by the "Operator" column and count the occurrences of each unique value
@@ -123,4 +123,4 @@ top_10 = operator_counts.head(10)
 chart_operators = px.bar(top_10, x='Operator', y='Accidents', width=800, height=700, title="<b>Top 10 Airlines with Accidents</b>")
 
 with middle_column:
-    st.plotly_chart(chart_operators)
+    st.plotly_chart(chart_operators, width=800, height=700)
