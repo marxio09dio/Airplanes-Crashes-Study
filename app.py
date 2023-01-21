@@ -111,6 +111,8 @@ with left_columnn:
     st.plotly_chart(chart_fatalities_by_year, width=800, height=700)
 
 
+### --- operator viz
+
 # group by the "Operator" column and count the occurrences of each unique value
 operator_counts = df_selection.groupby("Operator").size().reset_index(name='Accidents')
 
@@ -124,3 +126,13 @@ chart_operators = px.bar(top_10, x='Operator', y='Accidents', width=800, height=
 
 with middle_column:
     st.plotly_chart(chart_operators, width=800, height=700)
+
+### --- Ac_type viz
+AC_Type_c = df_selection.groupby("AC_Type").size().reset_index(name='AC_Type_c')
+AC_Type_c = AC_Type_c.sort_values(by='AC_Type_c', ascending=False)
+AC_Type_top = AC_Type_c.head(10)
+
+chart_AC_Type_top = px.bar(AC_Type_top, x='AC_Type', y='AC_Type_c', width=800, height=700, title="<b>Top 10 AC Type involved in Accidents</b>")
+
+with right_column:
+    st.plotly_chart(chart_AC_Type_top, width=800, height=700)
