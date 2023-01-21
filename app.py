@@ -100,7 +100,7 @@ st.markdown('---')
 
  ## ------Data viz------
 
-left_columnn, middle_column, md_column, right_column = st.columns(4)
+left_columnn, middle_column, right_column = st.columns(3)
 
 fatalities_by_year = df.groupby(by=['year']).sum()
 
