@@ -5,7 +5,7 @@ import streamlit as st
 st.set_page_config(page_title='Airplanes Crash Data', layout="wide")
 
 
-df = pd.read_excel(io='Data/plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',usecols='A:Q', nrows=5064)
+df = pd.read_excel(io='plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',usecols='A:Q', nrows=5064)
 
 #st.dataframe(df)
 
