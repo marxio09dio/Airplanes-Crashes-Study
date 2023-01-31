@@ -4,7 +4,7 @@ import streamlit as st
 
 st.title("Filter By Year")
 
-df = pd.read_excel(io='plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',usecols='A:Q', nrows=5064)
+df = pd.read_excel(io='Data/plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',usecols='A:Q', nrows=5064)
 
 #st.dataframe(df)
 
@@ -12,7 +12,7 @@ df = pd.read_excel(io='plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',useco
 
 # ------Filters------
 st.sidebar.header("Please Filter Here:")
-years = df['year'].unique()
+years = df['Year'].unique()
 #year = st.sidebar.multiselect("Select the Year:", options=df["year"].unique(), default=df["year"].unique())
 year = st.sidebar.select_slider("Select the Year Range", options=years, value=[1908, 2023])
 
@@ -74,7 +74,7 @@ st.markdown('---')
 
 left_columnn, middle_column, right_column = st.columns(3)
 
-fatalities_by_year = df.groupby(by=['year']).sum()
+fatalities_by_year = df.groupby(by=['Year']).sum()
 
 
 chart_fatalities_by_year = px.line(fatalities_by_year, x=fatalities_by_year.index, y=fatalities_by_year['Total_Fatalites'], width=800, height=700, title="<b>Total Deaths by Year</b>")

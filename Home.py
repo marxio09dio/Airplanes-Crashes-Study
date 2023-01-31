@@ -17,7 +17,7 @@ st.caption("Aviation accidents or incidents of noteworthy interest.")
 
     
 
-df = pd.read_excel(io='plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',usecols='A:Q', nrows=5064)
+df = pd.read_excel(io='Data/plane_crash_info_cleaned.xlsx', sheet_name='Sheet1',usecols='A:Q', nrows=5064)
 
 
 #------Page total KPIs------
@@ -53,7 +53,7 @@ st.markdown('---')
 
  ## ------Data viz------
 
-fatalities_by_year = df.groupby(by=['year']).sum()
+fatalities_by_year = df.groupby(by=['Year']).sum()
 
 chart_fatalities_by_year = px.line(fatalities_by_year, x=fatalities_by_year.index, y=fatalities_by_year['Total_Fatalites'], width=1400, height=700, title="<b>Total Deaths by Year</b>")
 
