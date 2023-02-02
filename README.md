@@ -15,7 +15,7 @@ The Accidents and Incidents on the dataset are:
 - Aviation accidents involving the death of famous people.
 - Aviation accidents or incidents of noteworthy interest.
 
-**Location of Events are approximated, from the dataset, only 34% is known**
+**Location of Events are approximated, from the dataset, only 13.15% is known**
 
 ## Methodogy
 
@@ -27,13 +27,23 @@ The Accidents and Incidents on the dataset are:
 - Dashboard Creation
 - Conclusions
 
-## Tech
+## Tech Used
 
-The Analyzes was performed using:
-- [Python](https://www.python.org/) 
-    - [Pandas](https://pandas.pydata.org/), [Numpy](https://numpy.org/), [Seaborn](https://seaborn.pydata.org/),  [Matplotlib](https://matplotlib.org/), [Requests](https://pypi.org/project/requests/), [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
-- [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)
-- [Power BI](https://powerbi.microsoft.com/)
-- [Google Sheets](https://www.google.com/sheets/about/)
-- [Google Looker Studio](https://lookerstudio.google.com/overview)
 
+[![Python](https://user-images.githubusercontent.com/38763806/216325053-262b3623-2808-465d-b35b-37794be0d0e0.png)](https://www.python.org/) 
+
+[![Pandas](https://user-images.githubusercontent.com/38763806/216390784-3a7a6275-c795-466f-aedd-a4d61be21d96.png)](https://pandas.pydata.org/)
+
+[![Numpy](https://user-images.githubusercontent.com/38763806/216393011-b7879e35-c4ab-45ca-bb13-4330ba297c5d.png)](https://numpy.org/)
+
+[![Seaborn](https://user-images.githubusercontent.com/38763806/216393329-01b8588e-238c-4f7b-83ce-5741f766e889.png)](https://seaborn.pydata.org/)
+
+[![Matplotlib](https://user-images.githubusercontent.com/38763806/216395946-bcf5ef6e-0524-44b2-8a41-6eb47920501a.png)](https://matplotlib.org/)
+
+[![BeautifulSoup](https://user-images.githubusercontent.com/38763806/216395555-865b6975-0fc1-40ca-8fd5-45e46dc84a25.png)](https://pypi.org/project/beautifulsoup4/)
+
+[![Microsoft Excel](https://user-images.githubusercontent.com/38763806/216391933-98c1e138-27dc-4d61-89cb-fb25ba0a5e04.png)](https://www.microsoft.com/microsoft-365/excel)
+
+[![Power BI](https://user-images.githubusercontent.com/38763806/216396186-e882a672-6296-48a5-a168-13f4c1dcb082.png)](https://powerbi.microsoft.com/)
+
+[![Google Sheets](https://user-images.githubusercontent.com/38763806/216396752-ee34b793-b22b-40cf-896b-7a1c614bb7ac.png)](https://lookerstudio.google.com/overview)
