@@ -32,11 +32,17 @@ The Accidents and Incidents on the dataset are:
 The Analyzes was performed using:
 
 [![Python](https://user-images.githubusercontent.com/38763806/216325053-262b3623-2808-465d-b35b-37794be0d0e0.png)](https://www.python.org/) 
+
 [![Pandas](https://user-images.githubusercontent.com/38763806/216390784-3a7a6275-c795-466f-aedd-a4d61be21d96.png)](https://pandas.pydata.org/)
+
 [![Numpy](https://user-images.githubusercontent.com/38763806/216393011-b7879e35-c4ab-45ca-bb13-4330ba297c5d.png)](https://numpy.org/)
+
 [![Seaborn](https://user-images.githubusercontent.com/38763806/216393329-01b8588e-238c-4f7b-83ce-5741f766e889.png)](https://seaborn.pydata.org/)
+
 [![Matplotlib](https://user-images.githubusercontent.com/38763806/216393712-b634550e-cc53-44e1-911c-965272c594bf.png)](https://matplotlib.org/)
-[![BeautifulSoup]()](https://pypi.org/project/beautifulsoup4/)
+
+[![BeautifulSoup](https://user-images.githubusercontent.com/38763806/216394315-a999a5c7-1352-433d-bb7f-846eb49f5d79.jpg)](https://pypi.org/project/beautifulsoup4/)
+
 [![Microsoft Excel](https://user-images.githubusercontent.com/38763806/216391933-98c1e138-27dc-4d61-89cb-fb25ba0a5e04.png)](https://www.microsoft.com/microsoft-365/excel)
 
 - [Power BI](https://powerbi.microsoft.com/)
