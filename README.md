@@ -1,25 +1,39 @@
 # Airplanes Crashes Study
- 
- Data from scraped from:
- 
- http://www.planecrashinfo.com/index.html
+## _Accidents and Incidents from 1908 to 2023_
 
- Accidents and Incidents from 1908 to 2023 that are:
 
-All civil and commercial aviation accidents of scheduled and non-scheduled passenger airliners worldwide, which resulted in a fatality (including all U.S. Part 121 and Part 135 fatal accidents)
+- Aggregated data sources:
+  - Accidents and Incidents data: http://www.planecrashinfo.com/database.htm
+  - Geo Location data: https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft
 
-All cargo, positioning, ferry and test flight fatal accidents.
+The Accidents and Incidents on the dataset are: 
+- All civil and commercial aviation accidents of scheduled and non-scheduled passenger airliners worldwide, which resulted in a fatality (including all U.S. Part 121 and Part 135 fatal accidents)
+- All cargo, positioning, ferry and test flight fatal accidents.
+- All military transport accidents with 10 or more fatalities.
+- All commercial and military helicopter accidents with greater than 10 fatalities.
+- All civil and military airship accidents involving fatalities.
+- Aviation accidents involving the death of famous people.
+- Aviation accidents or incidents of noteworthy interest.
 
-All military transport accidents with 10 or more fatalities.
+**Location of Events are approximated, from the dataset, only 34% is known**
 
-All commercial and military helicopter accidents with greater than 10 fatalities.
+## Methodogy
 
-All civil and military airship accidents involving fatalities.
+- Data Scraped from http://www.planecrashinfo.com/database.htm
+- Data extracted cleaned and reorganized
+- Geo Location Data scraped from https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft
+- Geo Data appended to the main dataset
+- Exploratory Analyses performed to assist in Data Visualisation
+- Dashboard Creation
+- Conclusions
 
-Aviation accidents involving the death of famous people.
+## Tech
 
-Aviation accidents or incidents of noteworthy interest.
+The Analyzes was performed using:
+- [Python](https://www.python.org/) 
+    - [Pandas](https://pandas.pydata.org/), [Numpy](https://numpy.org/), [Seaborn](https://seaborn.pydata.org/),  [Matplotlib](https://matplotlib.org/), [Requests](https://pypi.org/project/requests/), [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+- [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)
+- [Power BI](https://powerbi.microsoft.com/)
+- [Google Sheets](https://www.google.com/sheets/about/)
+- [Google Looker Studio](https://lookerstudio.google.com/overview)
 
-Data extracted was cleaned and multiple new columns added
-
-EDA performed to get more insight on the date to assist in preparing Data Visaulations
