@@ -15,7 +15,7 @@ The Accidents and Incidents on the dataset are:
 - Aviation accidents involving the death of famous people.
 - Aviation accidents or incidents of noteworthy interest.
 
-**Location of Events are approximated, from the dataset, only 34% is known**
+**Location of Events are approximated, from the dataset, only 13.15% is known**
 
 ## Methodogy
 
