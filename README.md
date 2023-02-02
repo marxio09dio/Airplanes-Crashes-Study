@@ -30,6 +30,7 @@ The Accidents and Incidents on the dataset are:
 ## Tech
 
 The Analyzes was performed using:
+[![N|Data](https://user-images.githubusercontent.com/38763806/216325053-262b3623-2808-465d-b35b-37794be0d0e0.png)](https://www.python.org/m)
 - [Python](https://www.python.org/) 
     - [Pandas](https://pandas.pydata.org/), [Numpy](https://numpy.org/), [Seaborn](https://seaborn.pydata.org/),  [Matplotlib](https://matplotlib.org/), [Requests](https://pypi.org/project/requests/), [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
 - [Microsoft Excel](https://www.microsoft.com/microsoft-365/excel)
