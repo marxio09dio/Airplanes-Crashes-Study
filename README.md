@@ -27,9 +27,8 @@ The Accidents and Incidents on the dataset are:
 - Dashboard Creation
 - Conclusions
 
-## Tech
+## Tech Used
 
-The Analyzes was performed using:
 
 [![Python](https://user-images.githubusercontent.com/38763806/216325053-262b3623-2808-465d-b35b-37794be0d0e0.png)](https://www.python.org/) 
 
