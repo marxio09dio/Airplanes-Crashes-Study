@@ -4,7 +4,7 @@
 [![github](https://user-images.githubusercontent.com/38763806/216290973-eb222070-1b53-4b1e-bb65-6304b03e9c86.png)](http://www.planecrashinfo.com/database.htm) Crashes Original Data
 
 
-[![github](https://user-images.githubusercontent.com/38763806/216290155-d8c3031f-8322-4766-9353-059396cb40b2.png)](https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft) Geo Location Data From
+[![github](https://user-images.githubusercontent.com/38763806/216290155-d8c3031f-8322-4766-9353-059396cb40b2.png)](https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft) Geo Location Data
 
 The Accidents and Incidentes on the dataset are: 
 
@@ -26,13 +26,12 @@ The Accidents and Incidentes on the dataset are:
 - Dashboadrd Creation
 - Conclusions
 
-
 ## Tech
 
 The Analyzes was performed using:
-
-- [Python] - Libraries used: Pandas, Numpy, Seaborn,  Matplotlib, Requests, BeautifulSoup, Time, Random
-- Microsot Excel
-- Power BI
-- Google Sheets
-- Google Looker Studio
+- [Python](https://www.python.org/) 
+    - [Pandas](https://pandas.pydata.org/), [Numpy](https://numpy.org/), [Seaborn](https://seaborn.pydata.org/),  [Matplotlib](https://matplotlib.org/), [Requests](https://pypi.org/project/requests/), [BeautifulSoup](https://pypi.org/project/beautifulsoup4/)
+- [Microsot Excel](https://www.microsoft.com/microsoft-365/excel)
+- [Power BI](https://powerbi.microsoft.com/)
+- [Google Sheets](https://www.google.com/sheets/about/)
+- [Google Looker Studio](https://lookerstudio.google.com/overview)
