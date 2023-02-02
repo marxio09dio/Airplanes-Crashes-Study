@@ -41,7 +41,7 @@ The Analyzes was performed using:
 
 [![Matplotlib](https://user-images.githubusercontent.com/38763806/216393712-b634550e-cc53-44e1-911c-965272c594bf.png)](https://matplotlib.org/)
 
-[![BeautifulSoup](https://user-images.githubusercontent.com/38763806/216394315-a999a5c7-1352-433d-bb7f-846eb49f5d79.jpg)](https://pypi.org/project/beautifulsoup4/)
+[![BeautifulSoup](https://user-images.githubusercontent.com/38763806/216395555-865b6975-0fc1-40ca-8fd5-45e46dc84a25.png)](https://pypi.org/project/beautifulsoup4/)
 
 [![Microsoft Excel](https://user-images.githubusercontent.com/38763806/216391933-98c1e138-27dc-4d61-89cb-fb25ba0a5e04.png)](https://www.microsoft.com/microsoft-365/excel)
 
