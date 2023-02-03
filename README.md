@@ -15,6 +15,7 @@ The Accidents and Incidents on the dataset are:
 - Aviation accidents involving the death of famous people.
 - Aviation accidents or incidents of noteworthy interest.
 
+**Midair collisions are aggredated by "/" for example, Aircraft 1 / Aircraft 2** 
 **Location of Events are approximated, from the dataset, only 13,58% is known**
 
 ## Methodogy
