@@ -15,7 +15,7 @@ The Accidents and Incidents on the dataset are:
 - Aviation accidents involving the death of famous people.
 - Aviation accidents or incidents of noteworthy interest.
 
-**Location of Events are approximated, from the dataset, only 13.15% is known**
+**Location of Events are approximated, from the dataset, only 13,58% is known**
 
 ## Methodogy
 
@@ -23,14 +23,13 @@ The Accidents and Incidents on the dataset are:
 - Data extracted cleaned and reorganized
 - Geo Location Data scraped from https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft
 - Geo Data appended to the main dataset
+- Due to multiple spelling errors from the original source, manual cleaning had to be in Excel
 - Exploratory Analyses performed to assist in Data Visualisation
 - Dashboard Creation
-- Conclusions
 
-https://app.powerbi.com/view?r=eyJrIjoiZjAxYmRhYjgtZDE5MC00Yjg1LTk5MjEtYTEwYjk1NjJhNDQ4IiwidCI6IjVlZWVhZDE1LTY3MmQtNDZkMS04ZjM1LTlhZGM0MDU3YmJhNiIsImMiOjl9
+### [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZjAxYmRhYjgtZDE5MC00Yjg1LTk5MjEtYTEwYjk1NjJhNDQ4IiwidCI6IjVlZWVhZDE1LTY3MmQtNDZkMS04ZjM1LTlhZGM0MDU3YmJhNiIsImMiOjl9)
 
 ## Tech Used
-
 
 [![Python](https://user-images.githubusercontent.com/38763806/216325053-262b3623-2808-465d-b35b-37794be0d0e0.png)](https://www.python.org/) 
 
@@ -48,4 +47,11 @@ https://app.powerbi.com/view?r=eyJrIjoiZjAxYmRhYjgtZDE5MC00Yjg1LTk5MjEtYTEwYjk1N
 
 [![Power BI](https://user-images.githubusercontent.com/38763806/216396186-e882a672-6296-48a5-a168-13f4c1dcb082.png)](https://powerbi.microsoft.com/)
 
-[![Google Sheets](https://user-images.githubusercontent.com/38763806/216396752-ee34b793-b22b-40cf-896b-7a1c614bb7ac.png)](https://lookerstudio.google.com/overview)
+## Acknowledgements
+
+- Wikipedia for the geolacation data.
+- Richard Kebabjian, owner of http://www.planecrashinfo.com/index.html, for the permission of using his data.
+
+## Feedback
+
+Any feedback for improving the Dashboard or any other file is welcomed 
