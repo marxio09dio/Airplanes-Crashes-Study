@@ -53,7 +53,3 @@ The Accidents and Incidents on the dataset are:
 
 - Wikipedia for the geolocation data.
 - Richard Kebabjian, owner of http://www.planecrashinfo.com/index.html, for permission to use his data.
-
-## Feedback
-
-Any feedback for improving the Dashboard or any other file is welcomed 
