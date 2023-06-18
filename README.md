@@ -13,9 +13,9 @@ The Accidents and Incidents on the dataset are:
 - All commercial and military helicopter accidents with greater than 10 fatalities.
 - All civil and military airship accidents involving fatalities.
 - Aviation accidents involving the death of famous people.
-- Aviation accidents or incidents of noteworthy interest.
+- Aviation accidents or incidents of significant interest.
 
-**Midair collisions are aggredated by "/" for example, Aircraft 1 / Aircraft 2** 
+**Midair collisions are aggregated by "/" for example, Aircraft 1 / Aircraft 2** 
 
 **Location of Events are approximated, from the dataset, only 13,58% is known**
 
@@ -24,8 +24,8 @@ The Accidents and Incidents on the dataset are:
 - Data Scraped from http://www.planecrashinfo.com/database.htm
 - Data extracted cleaned and reorganized
 - Geo Location Data scraped from https://en.wikipedia.org/wiki/List_of_accidents_and_incidents_involving_commercial_aircraft
-- Geo Data appended to the main dataset
-- Due to multiple spelling errors from the original source, manual cleaning had to be in Excel
+- Geo Data appended to the primary dataset
+- Due to multiple spelling errors from the source, manual cleaning had to be done in Excel
 - Exploratory Analyses performed to assist in Data Visualisation
 - Dashboard Creation
 
@@ -51,8 +51,8 @@ The Accidents and Incidents on the dataset are:
 
 ## Acknowledgements
 
-- Wikipedia for the geolacation data.
-- Richard Kebabjian, owner of http://www.planecrashinfo.com/index.html, for the permission of using his data.
+- Wikipedia for the geolocation data.
+- Richard Kebabjian, owner of http://www.planecrashinfo.com/index.html, for permission to use his data.
 
 ## Feedback
 
